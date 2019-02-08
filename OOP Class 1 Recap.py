@@ -1,26 +1,26 @@
-class Employee:
-
-    def __init__(self, first, last, pay):
-        self.first = first
-        self.last = last
-        self.pay = pay
-        self.email = first + '.' + last + '@brunel.ac.uk'
-
-    def fullname(self):
-        return'{} {}'.format(self.first, self.last)
-
-
-
-emp_1 = Employee('Bob', 'Jones', 3500)
-emp_2 = Employee('Jane', 'Jackson', 5500)
-
-
-print(emp_1.email)
-print(emp_2.email)
-print(emp_1.fullname())
-
-
-print('{} {}'.format(emp_1.first, emp_1.last))
+# class Employee:
+#
+#     def __init__(self, first, last, pay):
+#         self.first = first
+#         self.last = last
+#         self.pay = pay
+#         self.email = first + '.' + last + '@brunel.ac.uk'
+#
+#     def fullname(self):
+#         return'{} {}'.format(self.first, self.last)
+#
+#
+#
+# emp_1 = Employee('Bob', 'Jones', 3500)
+# emp_2 = Employee('Jane', 'Jackson', 5500)
+#
+#
+# print(emp_1.email)
+# print(emp_2.email)
+# print(emp_1.fullname())
+#
+#
+# print('{} {}'.format(emp_1.first, emp_1.last))
 
 
 : Exercise 1 --------------------------------------------------------------------------------------
@@ -101,14 +101,14 @@ enemy_2.Add_Weapon_Explosives()                # This adds 'Explosives' to all c
 enemy_1.Get_Full_Report()
 enemy_2.Get_Full_Report()
 
-enemy_2.Get_Full_Name()
-enemy_2.Get_Description()
-enemy_2.Get_Weapons_List()
+# enemy_2.Get_Full_Name()
+# enemy_2.Get_Description()
+# enemy_2.Get_Weapons_List()
 
 
-: Questions:
-: 1) How to remove single-space indentation on printed 'Name' lines? (Need to keep new-line spacing.)
-: 2) Is there a cleaner way to remove a dictionary's curly brackets when printing it as a list?
+#: Questions:
+#: 1) How to remove single-space indentation on printed 'Name' lines? (Need to keep new-line spacing.)
+#: 2) Is there a cleaner way to remove a dictionary's curly brackets when printing it as a list?
 
 
 #: Exercise 2 --------------------------------------------------------------------------------------
